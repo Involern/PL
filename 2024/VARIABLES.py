@@ -35,5 +35,24 @@ SWITCH = False
 print("Is switch on: " + str(SWITCH))
 # print(type(SWITCH))
 
+# multiple assignment
+
+# name = "name"
+# age = 21
+# alive = True
 
 
+
+name,age,alive = "name",21,True
+
+# print(name, age, alive)
+print(name)
+print(age)
+print(alive)
+
+
+num1 = num2 = num3 = num4 = 30
+lNums = [num1, num2, num3, num4]
+
+for i in lNums:
+    print(i)
